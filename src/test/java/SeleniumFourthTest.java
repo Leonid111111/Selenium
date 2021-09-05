@@ -57,6 +57,8 @@ public class SeleniumFourthTest {
         Assert.assertEquals(getValue1, "Sex : Female\n" +
                 "Age group: 15 - 50");
 
+        driver.quit();
+
 
     }
 

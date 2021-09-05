@@ -1,196 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" ignored="0" total="10" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="160959" started-at="2021-09-02T20:14:49 EEST" finished-at="2021-09-02T20:17:30 EEST">
+  <suite name="Command line suite" duration-ms="164711" started-at="2021-09-05T23:10:31 EEST" finished-at="2021-09-05T23:13:16 EEST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="160959" started-at="2021-09-02T20:14:49 EEST" finished-at="2021-09-02T20:17:30 EEST">
-      <class name="SeleniumFourthTest">
-        <test-method status="FAIL" signature="SeleniumFourthTest()[pri:0, instance:SeleniumFourthTest@5abca1e0]" name="SeleniumFourthTest" duration-ms="9999" started-at="2021-09-02T20:15:28 EEST" finished-at="2021-09-02T20:15:38 EEST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //li[@class='dropdown']//a[contains(text(),'Input Forms')] (tried for 2 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //li[@class='dropdown']//a[contains(text(),'Input Forms')] (tried for 2 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at SeleniumFourthTest.SeleniumFourthTest(SeleniumFourthTest.java:32)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WIN-LHKDRQMB9BR', ip: '172.17.253.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 95f4ac840ad912f46e08768e05de68aa
-*** Element info: {Using=xpath, value=//li[@class='dropdown']//a[contains(text(),'Input Forms')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 39 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SeleniumFourthTest -->
-      </class> <!-- SeleniumFourthTest -->
+    <test name="Command line test" duration-ms="164711" started-at="2021-09-05T23:10:31 EEST" finished-at="2021-09-05T23:13:16 EEST">
       <class name="SeleniumNinthTest">
-        <test-method status="FAIL" signature="TestNinthSolution()[pri:0, instance:SeleniumNinthTest@2286778]" name="TestNinthSolution" duration-ms="27624" started-at="2021-09-02T20:15:38 EEST" finished-at="2021-09-02T20:16:05 EEST">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WIN-LHKDRQMB9BR', ip: '172.17.253.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
-*** Element info: {Using=xpath, value=//ul[@class='nav navbar-nav']//*[contains(text(),'Table')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WIN-LHKDRQMB9BR', ip: '172.17.253.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
-*** Element info: {Using=xpath, value=//ul[@class='nav navbar-nav']//*[contains(text(),'Table')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at SeleniumNinthTest.TestNinthSolution(SeleniumNinthTest.java:32)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="TestNinthSolution()[pri:0, instance:SeleniumNinthTest@527740a2]" name="TestNinthSolution" duration-ms="9569" started-at="2021-09-05T23:11:39 EEST" finished-at="2021-09-05T23:11:49 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestNinthSolution -->
       </class> <!-- SeleniumNinthTest -->
+      <class name="SeleniumFourthTest">
+        <test-method status="PASS" signature="SeleniumFourthTest()[pri:0, instance:SeleniumFourthTest@6d7b4f4c]" name="SeleniumFourthTest" duration-ms="11808" started-at="2021-09-05T23:11:27 EEST" finished-at="2021-09-05T23:11:39 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumFourthTest -->
+      </class> <!-- SeleniumFourthTest -->
       <class name="SeleniumFirstTest">
-        <test-method status="PASS" signature="SeleniumFirstTest()[pri:0, instance:SeleniumFirstTest@3632be31]" name="SeleniumFirstTest" duration-ms="11445" started-at="2021-09-02T20:15:16 EEST" finished-at="2021-09-02T20:15:28 EEST">
+        <test-method status="PASS" signature="SeleniumFirstTest()[pri:0, instance:SeleniumFirstTest@4e9ba398]" name="SeleniumFirstTest" duration-ms="12707" started-at="2021-09-05T23:11:14 EEST" finished-at="2021-09-05T23:11:27 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeleniumFirstTest -->
       </class> <!-- SeleniumFirstTest -->
+      <class name="SeleniumTenthTest">
+        <test-method status="PASS" signature="checkOrangSmiles()[pri:0, instance:SeleniumTenthTest@5ae63ade]" name="checkOrangSmiles" duration-ms="15516" started-at="2021-09-05T23:12:47 EEST" finished-at="2021-09-05T23:13:03 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrangSmiles -->
+      </class> <!-- SeleniumTenthTest -->
       <class name="SeleniumSixthTest">
-        <test-method status="PASS" signature="ModuleCheckOptionsSelected()[pri:0, instance:SeleniumSixthTest@5bc79255]" name="ModuleCheckOptionsSelected" duration-ms="15123" started-at="2021-09-02T20:16:39 EEST" finished-at="2021-09-02T20:16:55 EEST">
+        <test-method status="PASS" signature="ModuleCheckOptionsSelected()[pri:0, instance:SeleniumSixthTest@3dd4520b]" name="ModuleCheckOptionsSelected" duration-ms="10793" started-at="2021-09-05T23:12:36 EEST" finished-at="2021-09-05T23:12:47 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ModuleCheckOptionsSelected -->
       </class> <!-- SeleniumSixthTest -->
       <class name="SeleniumSeventnTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumSeventnTest@3108bc]" name="beforeMethod" is-config="true" duration-ms="6704" started-at="2021-09-02T20:16:32 EEST" finished-at="2021-09-02T20:16:38 EEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumSeventnTest@63753b6d]" name="beforeMethod" is-config="true" duration-ms="9197" started-at="2021-09-05T23:12:25 EEST" finished-at="2021-09-05T23:12:34 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="seven()[pri:0, instance:SeleniumSeventnTest@3108bc]" name="seven" duration-ms="1216" started-at="2021-09-02T20:16:38 EEST" finished-at="2021-09-02T20:16:39 EEST">
+        <test-method status="FAIL" signature="seven()[pri:0, instance:SeleniumSeventnTest@63753b6d]" name="seven" duration-ms="2455" started-at="2021-09-05T23:12:34 EEST" finished-at="2021-09-05T23:12:36 EEST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -247,189 +98,36 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </reporter-output>
         </test-method> <!-- seven -->
       </class> <!-- SeleniumSeventnTest -->
+      <class name="SeleniumEleventhTest">
+        <test-method status="PASS" signature="checkTestAppears()[pri:0, instance:SeleniumEleventhTest@5abca1e0]" name="checkTestAppears" duration-ms="11491" started-at="2021-09-05T23:10:51 EEST" finished-at="2021-09-05T23:11:03 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestAppears -->
+      </class> <!-- SeleniumEleventhTest -->
       <class name="SeleniumThirdTest">
-        <test-method status="FAIL" signature="SeleniumFirstTest()[pri:0, instance:SeleniumThirdTest@47ef968d]" name="SeleniumFirstTest" duration-ms="35205" started-at="2021-09-02T20:16:55 EEST" finished-at="2021-09-02T20:17:30 EEST">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WIN-LHKDRQMB9BR', ip: '172.17.253.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44550ecb4b5d16473f7f581ddee0176a
-*** Element info: {Using=xpath, value=//li[@class='dropdown']//a[contains(text(),'Input Forms')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WIN-LHKDRQMB9BR', ip: '172.17.253.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44550ecb4b5d16473f7f581ddee0176a
-*** Element info: {Using=xpath, value=//li[@class='dropdown']//a[contains(text(),'Input Forms')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-at SeleniumThirdTest.SeleniumFirstTest(SeleniumThirdTest.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="SeleniumFirstTest()[pri:0, instance:SeleniumThirdTest@610694f1]" name="SeleniumFirstTest" duration-ms="12848" started-at="2021-09-05T23:13:03 EEST" finished-at="2021-09-05T23:13:16 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeleniumFirstTest -->
       </class> <!-- SeleniumThirdTest -->
       <class name="SeleniumFifthTest">
-        <test-method status="PASS" signature="daySelectFriday()[pri:0, instance:SeleniumFifthTest@56235b8e]" name="daySelectFriday" duration-ms="9013" started-at="2021-09-02T20:15:07 EEST" finished-at="2021-09-02T20:15:16 EEST">
+        <test-method status="PASS" signature="daySelectFriday()[pri:0, instance:SeleniumFifthTest@2286778]" name="daySelectFriday" duration-ms="11959" started-at="2021-09-05T23:11:03 EEST" finished-at="2021-09-05T23:11:14 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- daySelectFriday -->
       </class> <!-- SeleniumFifthTest -->
       <class name="SeleniumEighthTest">
-        <test-method status="PASS" signature="checkTheDate()[pri:0, instance:SeleniumEighthTest@a67c67e]" name="checkTheDate" duration-ms="18162" started-at="2021-09-02T20:14:49 EEST" finished-at="2021-09-02T20:15:07 EEST">
+        <test-method status="PASS" signature="checkTheDate()[pri:0, instance:SeleniumEighthTest@4e1d422d]" name="checkTheDate" duration-ms="20001" started-at="2021-09-05T23:10:31 EEST" finished-at="2021-09-05T23:10:51 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTheDate -->
       </class> <!-- SeleniumEighthTest -->
       <class name="SeleniumSecondTest">
-        <test-method status="FAIL" signature="SeleniumFirstTest()[pri:0, instance:SeleniumSecondTest@4e9ba398]" name="SeleniumFirstTest" duration-ms="15508" started-at="2021-09-02T20:16:05 EEST" finished-at="2021-09-02T20:16:21 EEST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //li[@class='dropdown']//a[contains(text(),'Input Forms')] (tried for 5 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //li[@class='dropdown']//a[contains(text(),'Input Forms')] (tried for 5 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at SeleniumFirstTest.SeleniumFirstTest(SeleniumFirstTest.java:32)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WIN-LHKDRQMB9BR', ip: '172.17.253.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ee81c6458aba108c1e9c0b9aff5d740c
-*** Element info: {Using=xpath, value=//li[@class='dropdown']//a[contains(text(),'Input Forms')]}
-at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 39 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="SeleniumFirstTest()[pri:0, instance:SeleniumSecondTest@3108bc]" name="SeleniumFirstTest" duration-ms="14518" started-at="2021-09-05T23:11:49 EEST" finished-at="2021-09-05T23:12:03 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeleniumFirstTest -->
-        <test-method status="PASS" signature="SeleniumSecondTest()[pri:0, instance:SeleniumSecondTest@4e9ba398]" name="SeleniumSecondTest" duration-ms="10789" started-at="2021-09-02T20:16:21 EEST" finished-at="2021-09-02T20:16:31 EEST">
+        <test-method status="PASS" signature="SeleniumSecondTest()[pri:0, instance:SeleniumSecondTest@3108bc]" name="SeleniumSecondTest" duration-ms="21589" started-at="2021-09-05T23:12:03 EEST" finished-at="2021-09-05T23:12:25 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeleniumSecondTest -->

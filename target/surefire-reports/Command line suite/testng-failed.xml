@@ -9,26 +9,6 @@
           <include name="seven"/>
         </methods>
       </class> <!-- SeleniumSeventnTest -->
-      <class name="SeleniumFourthTest">
-        <methods>
-          <include name="SeleniumFourthTest"/>
-        </methods>
-      </class> <!-- SeleniumFourthTest -->
-      <class name="SeleniumThirdTest">
-        <methods>
-          <include name="SeleniumFirstTest"/>
-        </methods>
-      </class> <!-- SeleniumThirdTest -->
-      <class name="SeleniumSecondTest">
-        <methods>
-          <include name="SeleniumFirstTest"/>
-        </methods>
-      </class> <!-- SeleniumSecondTest -->
-      <class name="SeleniumNinthTest">
-        <methods>
-          <include name="TestNinthSolution"/>
-        </methods>
-      </class> <!-- SeleniumNinthTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

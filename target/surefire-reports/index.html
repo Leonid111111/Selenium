@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 5 failed,   5 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,26 +102,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content failed suite-Command_line_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumThirdTest" hash-for-method="SeleniumFirstTest">SeleniumFirstTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumSecondTest" hash-for-method="SeleniumFirstTest">SeleniumFirstTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumFourthTest" hash-for-method="SeleniumFourthTest">SeleniumFourthTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumNinthTest" hash-for-method="TestNinthSolution">TestNinthSolution</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumSeventnTest" hash-for-method="seven">seven</a> <!-- method navigator-link -->
@@ -148,7 +128,37 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumThirdTest" hash-for-method="SeleniumFirstTest">SeleniumFirstTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumSecondTest" hash-for-method="SeleniumFirstTest">SeleniumFirstTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumFourthTest" hash-for-method="SeleniumFourthTest">SeleniumFourthTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumSecondTest" hash-for-method="SeleniumSecondTest">SeleniumSecondTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumNinthTest" hash-for-method="TestNinthSolution">TestNinthSolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumTenthTest" hash-for-method="checkOrangSmiles">checkOrangSmiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="SeleniumEleventhTest" hash-for-method="checkTestAppears">checkTestAppears</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -193,56 +203,24 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
+          <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">SeleniumFourthTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumSixthTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SeleniumFourthTest">
-                  </a> <!-- SeleniumFourthTest -->
-                  <span class="method-name">SeleniumFourthTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //li[@class=&apos;dropdown&apos;]//a[contains(text(),&apos;Input Forms&apos;)] (tried for 2 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at SeleniumFourthTest.SeleniumFourthTest(SeleniumFourthTest.java:32)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=92.0.4515.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WIN-LHKDRQMB9BR&apos;, ip: &apos;172.17.253.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 95f4ac840ad912f46e08768e05de68aa
-*** Element info: {Using=xpath, value=//li[@class=&apos;dropdown&apos;]//a[contains(text(),&apos;Input Forms&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 39 more
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
+                  <a name="ModuleCheckOptionsSelected">
+                  </a> <!-- ModuleCheckOptionsSelected -->
+                  <span class="method-name">ModuleCheckOptionsSelected</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">SeleniumSecondTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -251,132 +229,13 @@ Session ID: 95f4ac840ad912f46e08768e05de68aa
                   <a name="SeleniumFirstTest">
                   </a> <!-- SeleniumFirstTest -->
                   <span class="method-name">SeleniumFirstTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //li[@class=&apos;dropdown&apos;]//a[contains(text(),&apos;Input Forms&apos;)] (tried for 5 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at SeleniumFirstTest.SeleniumFirstTest(SeleniumFirstTest.java:32)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=92.0.4515.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WIN-LHKDRQMB9BR&apos;, ip: &apos;172.17.253.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ee81c6458aba108c1e9c0b9aff5d740c
-*** Element info: {Using=xpath, value=//li[@class=&apos;dropdown&apos;]//a[contains(text(),&apos;Input Forms&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 39 more
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">SeleniumThirdTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SeleniumFirstTest">
-                  </a> <!-- SeleniumFirstTest -->
-                  <span class="method-name">SeleniumFirstTest</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WIN-LHKDRQMB9BR&apos;, ip: &apos;172.17.253.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44550ecb4b5d16473f7f581ddee0176a
-*** Element info: {Using=xpath, value=//li[@class=&apos;dropdown&apos;]//a[contains(text(),&apos;Input Forms&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at SeleniumThirdTest.SeleniumFirstTest(SeleniumThirdTest.java:34)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">SeleniumNinthTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestNinthSolution">
-                  </a> <!-- TestNinthSolution -->
-                  <span class="method-name">TestNinthSolution</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WIN-LHKDRQMB9BR&apos;, ip: &apos;172.17.253.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
-*** Element info: {Using=xpath, value=//ul[@class=&apos;nav navbar-nav&apos;]//*[contains(text(),&apos;Table&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at SeleniumNinthTest.TestNinthSolution(SeleniumNinthTest.java:32)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">SeleniumFirstTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SeleniumFirstTest">
-                  </a> <!-- SeleniumFirstTest -->
-                  <span class="method-name">SeleniumFirstTest</span>
+                  <a name="SeleniumSecondTest">
+                  </a> <!-- SeleniumSecondTest -->
+                  <span class="method-name">SeleniumSecondTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -399,6 +258,51 @@ Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">SeleniumEleventhTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTestAppears">
+                  </a> <!-- checkTestAppears -->
+                  <span class="method-name">checkTestAppears</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumThirdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SeleniumFirstTest">
+                  </a> <!-- SeleniumFirstTest -->
+                  <span class="method-name">SeleniumFirstTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumFirstTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SeleniumFirstTest">
+                  </a> <!-- SeleniumFirstTest -->
+                  <span class="method-name">SeleniumFirstTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">SeleniumEighthTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -414,14 +318,14 @@ Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SeleniumSecondTest</span>
+              <span class="class-name">SeleniumNinthTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SeleniumSecondTest">
-                  </a> <!-- SeleniumSecondTest -->
-                  <span class="method-name">SeleniumSecondTest</span>
+                  <a name="TestNinthSolution">
+                  </a> <!-- TestNinthSolution -->
+                  <span class="method-name">TestNinthSolution</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -429,14 +333,29 @@ Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SeleniumSixthTest</span>
+              <span class="class-name">SeleniumTenthTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ModuleCheckOptionsSelected">
-                  </a> <!-- ModuleCheckOptionsSelected -->
-                  <span class="method-name">ModuleCheckOptionsSelected</span>
+                  <a name="checkOrangSmiles">
+                  </a> <!-- checkOrangSmiles -->
+                  <span class="method-name">checkOrangSmiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumFourthTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SeleniumFourthTest">
+                  </a> <!-- SeleniumFourthTest -->
+                  <span class="method-name">SeleniumFourthTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -453,6 +372,7 @@ Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;SeleniumEighthTest&quot;/&gt;
+      &lt;class name=&quot;SeleniumEleventhTest&quot;/&gt;
       &lt;class name=&quot;SeleniumFifthTest&quot;/&gt;
       &lt;class name=&quot;SeleniumFirstTest&quot;/&gt;
       &lt;class name=&quot;SeleniumFourthTest&quot;/&gt;
@@ -462,6 +382,7 @@ Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
       &lt;class name=&quot;SeleniumSixthTest&quot;/&gt;
       &lt;class name=&quot;SeleniumTenthTest&quot;/&gt;
       &lt;class name=&quot;SeleniumThirdTest&quot;/&gt;
+      &lt;class name=&quot;SeleniumTwentiethTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
 &lt;/suite&gt; &lt;!-- Command line suite --&gt;
@@ -475,7 +396,7 @@ Session ID: 7e1f15ee221e2a841e37e0ef7ba28841
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (10 classes)</span>
+                <span class="test-name">Command line test (12 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -501,47 +422,55 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SeleniumFirstTest')
-data.setCell(0, 2, 'SeleniumThirdTest')
-data.setCell(0, 3, 35205);
+data.setCell(0, 1, 'SeleniumSecondTest')
+data.setCell(0, 2, 'SeleniumSecondTest')
+data.setCell(0, 3, 21589);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestNinthSolution')
-data.setCell(1, 2, 'SeleniumNinthTest')
-data.setCell(1, 3, 27624);
+data.setCell(1, 1, 'checkTheDate')
+data.setCell(1, 2, 'SeleniumEighthTest')
+data.setCell(1, 3, 20001);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkTheDate')
-data.setCell(2, 2, 'SeleniumEighthTest')
-data.setCell(2, 3, 18162);
+data.setCell(2, 1, 'checkOrangSmiles')
+data.setCell(2, 2, 'SeleniumTenthTest')
+data.setCell(2, 3, 15516);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'SeleniumFirstTest')
 data.setCell(3, 2, 'SeleniumSecondTest')
-data.setCell(3, 3, 15508);
+data.setCell(3, 3, 14518);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ModuleCheckOptionsSelected')
-data.setCell(4, 2, 'SeleniumSixthTest')
-data.setCell(4, 3, 15123);
+data.setCell(4, 1, 'SeleniumFirstTest')
+data.setCell(4, 2, 'SeleniumThirdTest')
+data.setCell(4, 3, 12848);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'SeleniumFirstTest')
 data.setCell(5, 2, 'SeleniumFirstTest')
-data.setCell(5, 3, 11445);
+data.setCell(5, 3, 12707);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SeleniumSecondTest')
-data.setCell(6, 2, 'SeleniumSecondTest')
-data.setCell(6, 3, 10789);
+data.setCell(6, 1, 'daySelectFriday')
+data.setCell(6, 2, 'SeleniumFifthTest')
+data.setCell(6, 3, 11959);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'SeleniumFourthTest')
 data.setCell(7, 2, 'SeleniumFourthTest')
-data.setCell(7, 3, 9999);
+data.setCell(7, 3, 11808);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'daySelectFriday')
-data.setCell(8, 2, 'SeleniumFifthTest')
-data.setCell(8, 3, 9013);
+data.setCell(8, 1, 'checkTestAppears')
+data.setCell(8, 2, 'SeleniumEleventhTest')
+data.setCell(8, 3, 11491);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'seven')
-data.setCell(9, 2, 'SeleniumSeventnTest')
-data.setCell(9, 3, 1216);
+data.setCell(9, 1, 'ModuleCheckOptionsSelected')
+data.setCell(9, 2, 'SeleniumSixthTest')
+data.setCell(9, 3, 10793);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestNinthSolution')
+data.setCell(10, 2, 'SeleniumNinthTest')
+data.setCell(10, 3, 9569);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'seven')
+data.setCell(11, 2, 'SeleniumSeventnTest')
+data.setCell(11, 3, 2455);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -579,77 +508,83 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumEleventhTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkTestAppears</span>
+                <span class="method-start">20030 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">SeleniumFifthTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">daySelectFriday</span>
-                <span class="method-start">18162 ms</span>
+                <span class="method-start">31523 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumFirstTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">SeleniumFirstTest</span>
-                <span class="method-start">27177 ms</span>
+                <span class="method-start">43485 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumFourthTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SeleniumFourthTest</span>
-                <span class="method-start">38624 ms</span>
+                <span class="method-start">56195 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumNinthTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TestNinthSolution</span>
-                <span class="method-start">48643 ms</span>
+                <span class="method-start">68005 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumSecondTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SeleniumFirstTest</span>
-                <span class="method-start">76267 ms</span>
+                <span class="method-start">77576 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SeleniumSecondTest</span>
-                <span class="method-start">91780 ms</span>
+                <span class="method-start">92096 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumSeventnTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">102572 ms</span>
+                <span class="method-start">113688 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">seven</span>
-                <span class="method-start">109279 ms</span>
+                <span class="method-start">122889 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumSixthTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ModuleCheckOptionsSelected</span>
-                <span class="method-start">110497 ms</span>
+                <span class="method-start">125353 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTenthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOrangSmiles</span>
+                <span class="method-start">136147 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumThirdTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SeleniumFirstTest</span>
-                <span class="method-start">125620 ms</span>
+                <span class="method-start">151671 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
