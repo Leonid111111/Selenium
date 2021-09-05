@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -39,6 +40,14 @@ public class SeleniumNinthTest {
         WebElement enterEmiliJohn = driver
                 .findElement(By.xpath("//*[@id='task-table-filter']"));
         enterEmiliJohn.sendKeys("Emily John");
+
+        String checkRecordAppeas = driver.findElement(By.xpath("//table[@id=\"task-table\"]//tr[4]"))
+                .getText();
+        System.out.println(checkRecordAppeas);
+
+        Assert.assertEquals(checkRecordAppeas, "4 Bootstrap 3 Emily John in progress");
+
+
 
 
 

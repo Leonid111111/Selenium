@@ -37,7 +37,7 @@ public class SeleniumFourthTest {
         ratioButtonDemo.click();
 
         WebElement clickOnButtonSex = wait
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("      ")));
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(@class,'panel-default')][2]//*[@value='Female']")));
         clickOnButtonSex.click();
 
         WebElement clickOnButtonAge = wait
@@ -54,7 +54,8 @@ public class SeleniumFourthTest {
         System.out.println(getValueText);
 
         String getValue1 = driver.findElement(By.xpath("//*[@class='groupradiobutton']")).getText();
-        Assert.assertEquals( getValue1, "Sex : Female" + "/Age group: 15 - 50");
+        Assert.assertEquals(getValue1, "Sex : Female\n" +
+                "Age group: 15 - 50");
 
 
     }
