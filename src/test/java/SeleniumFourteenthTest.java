@@ -37,11 +37,13 @@ public class SeleniumFourteenthTest {
         jQweryListBoxClick.click();
 
         WebElement aliceAdd = driver.findElement(By.xpath("//option[contains(text(), 'Alice')]"));
-        String al = aliceAdd.getText();
+        String alice = aliceAdd.getText();
+
         WebElement lauraAdd = driver.findElement(By.xpath("//option[contains(text(), 'Laura')]"));
-        String lu = lauraAdd.getText();
+        String laura = lauraAdd.getText();
+
         WebElement giovannaAdd = driver.findElement(By.xpath("//option[contains(text(), 'Giovanna')]"));
-        String gv = giovannaAdd.getText();
+        String giovanna = giovannaAdd.getText();
 
 
         Actions action = new Actions(driver);
@@ -65,12 +67,12 @@ public class SeleniumFourteenthTest {
         }
 
 
-        String[] leftOptions = {al, lu, gv};
-        Arrays.sort(leftOptions);
-        for (int j = 0; j < leftOptions.length; j++) {
+        String[] movedItems = {alice, laura, giovanna};
+        Arrays.sort(movedItems);
+        for (int j = 0; j < movedItems.length; j++) {
         }
 
-        Arrays.equals(rightOptions, leftOptions);
+        Arrays.equals(rightOptions, movedItems);
 
 
         driver.quit();
